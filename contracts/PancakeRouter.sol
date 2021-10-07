@@ -1,6 +1,5 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IPancakeFactory.sol';
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
 import './interfaces/IPancakeRouter02.sol';
@@ -8,6 +7,7 @@ import './libraries/PancakeLibrary.sol';
 import './libraries/SafeMath.sol';
 import './interfaces/IERC20.sol';
 import './interfaces/IWETH.sol';
+import './interfaces/IPancakeFactory.sol';
 
 contract PancakeRouter is IPancakeRouter02 {
     using SafeMath for uint;

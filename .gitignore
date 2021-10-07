@@ -1,2 +1,9 @@
-build/
 node_modules/
+build/
+tasks/
+artifacts/
+cache/
+typechain/
+dist/
+deployments/
+.env

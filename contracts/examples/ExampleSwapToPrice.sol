@@ -1,6 +1,5 @@
 pragma solidity =0.6.6;
 
-import '@uniswap/v2-core/contracts/interfaces/IPancakePair.sol';
 import '@uniswap/lib/contracts/libraries/Babylonian.sol';
 import '@uniswap/lib/contracts/libraries/TransferHelper.sol';
 
@@ -8,6 +7,7 @@ import '../interfaces/IERC20.sol';
 import '../interfaces/IPancakeRouter01.sol';
 import '../libraries/SafeMath.sol';
 import '../libraries/PancakeLibrary.sol';
+import '../interfaces/IPancakePair.sol';
 
 contract ExampleSwapToPrice {
     using SafeMath for uint256;
